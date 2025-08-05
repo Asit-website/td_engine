@@ -1,0 +1,23 @@
+{
+    "name": "td_engine",
+    "version": "0.0.1",
+    "description": "jambonz websocket application",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "jslint": "eslint app.js lib"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@jambonz/node-client-ws": "^0.2.7",
+        "axios": "^1.11.0",
+        "express": "^5.1.0",
+        "pino": "^9.7.0",
+        "ws": "^8.18.3"
+    },
+    "devDependencies": {
+        "eslint": "^9.31.0",
+        "eslint-plugin-promise": "^7.2.1"
+    }
+}
